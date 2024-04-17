@@ -1,11 +1,49 @@
 .nav-items div {
-    display: inline-block
+    display: inline-block;
+    font-size: small;
+
 }
 
 .logo {
-    display:inline-block
+    display:inline-block;
 }
 
 .nav-items {
     display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.mid div {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.mid{
+    display:flex ;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.projects div{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projects div div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
