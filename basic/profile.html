@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <img src="image/light_007.svg" alt='007_header'>
+            <img src="image/light_007.svg" alt='007_header' style="width: 50px">
             <div class="nav-items">
                 <div>Home</div>
                 <div>About</div>
@@ -19,9 +19,9 @@
                 <div>Projects</div>
                 <div>Contact</div>
                 <div>
-                    <img src="image/github.svg" alt="github logo">
-                    <img src="image/twitter.svg" alt="twitter logo">
-                    <img src="image/linkedin.svg" alt="linkedin logo">
+                    <img src="image/github.svg" alt="github logo" style="width: 15px" ;>
+                    <img src="image/twitter.svg" alt="twitter logo" style="width: 15px">
+                    <img src="image/linkedin.svg" alt="linkedin logo" style="width: 15px">
                 </div>
             </div>
         </nav>
@@ -55,10 +55,12 @@
         </br>
         <section>
             <div class="projects">
-                <h3>Projects</h3>
-                <h4>Things I've built so far</h4>
+                <div class="center">
+                    <h3>Projects</h3>
+                    <h4>Things I've built so far</h4>
+                </div>
                 <div>
-                    <div>
+                    <div class="project">
                         <img src="image/testmate.svg" alt="TestMate" style="max-width: 170px; height: auto;">
                         <h3>TestMate</h3>
                         <p>프로젝트 설명</p>
@@ -67,7 +69,7 @@
                             <a>링크</a>
                         </div>
                     </div>
-                    <div>
+                    <div class="project">
                         <img src="image/creditpartner.svg" alt="CreditPartner" style="max-width: 200px; height: auto;">
                         <h3>CreditPartner</h3>
                         <p>프로젝트 설명</p>
@@ -81,12 +83,14 @@
         </section>
         </main>
     </header>
+    <br>
+    <br>
     <footer>
-        <div>
-            <img src="image/dark_007.svg" alt="007_footer">
+        <div class="extra">
+            <img src="image/dark_007.svg" alt="007_footer" style="width: 50px;">
             <div>
-                <p>01065062946</p>
-                <p>sdc05103@naver.com</p>
+                <p class="p_tag">01065062946</p>
+                <p class="p_tag">sdc05103@naver.com</p>
                 <div>
                     <img src="image/github.svg" alt="github logo">
                     <img src="image/twitter.svg" alt="twitter logo">
@@ -95,17 +99,16 @@
             </div>
         </div>
         <hr>
-        <nav>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Technologies</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Contact</a></li>
-            </ul>
+        <div class="extra_2">
+            <div>
+                <p class="p_tag">Home</p>
+                <p class="p_tag">About</p>
+                <p class="p_tag">Technologies</p>
+                <p class="p_tag">Projects</p>
+                <p class="p_tag">Contact</p>
+            </div>
             <p>Designed and built by Chaeyoon</p>
-            <p>Chaeyoon</p>
-        </nav>
+        </div>
     </footer>
 </body>
 
