@@ -1,13 +1,15 @@
 .nav-items {
     display: flex;
     font-size: small;
-    gap: 20px;
+    gap: 30px;
 
 }
 
 .head{
     display: flex;
     justify-content: space-between;
+    padding-top: 5%;
+    margin: 1rem 2rem 1rem;
 }
 
 header h1 span {
@@ -15,6 +17,10 @@ header h1 span {
     background: linear-gradient(120deg, #13b0f5 -2.06%, #e35ef7 100%);
     background-clip: text;
     color: transparent; /* 글자 색을 투명하게 */
+  }
+
+  ul {
+    list-style: none;
   }
 
 .logo {
@@ -46,26 +52,22 @@ header h1 span {
     padding-bottom: 5%;
 }
 
-.projects{
-    display: flex;
-    flex-direction: column;
-    /* align-items:center; */
-}
 
 .center{
     text-align: center;
 }
 
 
-.projects div{
-    display:flex;
-    justify-content: space-around;
-    /* width: 100%; */
-}
 
 .gap{
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    /* align-items:center; */
 }
 
 
@@ -74,12 +76,20 @@ header h1 span {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
-    background-color: aqua;
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
     border-radius: 10%;
 }
+
+.projects div{
+    display:flex;
+    justify-content: space-around;
+    /* width: 100%; */
+}
+
 .img {
-    width: 100px;    
+    width: auto;    
     flex-direction: column;
     justify-content: flex-end;
     /* max-width: 200px;  */
@@ -95,19 +105,28 @@ header h1 span {
 .extra {
     display: flex;
     justify-content: space-between;
+    margin: 1rem 2rem 1rem;
 }
 .extra div{
     display: flex;
     justify-content: space-between;
+    gap:10px;
 }
 
 .p_tag {
     padding-right: 10px;
+    font-size: 10px;
+}
+
+.font_size{
+    font-size: 10px;
+
 }
 
 .extra_2{
     display: flex;
     justify-content: space-between;
+    margin: 1rem 2rem 1rem;
 }
 
 .extra_2 div{
