@@ -21,7 +21,14 @@ header h1 span {
 
   ul {
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(145, 205, 235, 0.54);
   }
+
+.introduction{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .logo {
     display:inline-block;
@@ -49,19 +56,21 @@ header h1 span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .center{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 .gap{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .projects{
@@ -82,10 +91,15 @@ header h1 span {
     border-radius: 10%;
 }
 
+.project:hover{
+    box-shadow: 1px 2px 8px black;
+}
+
 .projects div{
     display:flex;
     justify-content: space-around;
     /* width: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img {
@@ -100,12 +114,16 @@ header h1 span {
     /* display:flex; */
     flex-direction: column;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .extra {
     display: flex;
     justify-content: space-between;
     margin: 1rem 2rem 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 .extra div{
     display: flex;
