@@ -1,0 +1,58 @@
+@media(max-width: 768px){
+    body{
+        padding: 0 12px;
+        background-color: gray;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5%;
+        /* margin: 1rem 2rem 1rem; */
+        flex-wrap: wrap;
+    
+    }
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin: 1rem 2rem 1rem;
+    flex-wrap: wrap;
+
+}
+
+
+@media(max-width: 768px){
+
+.nav-items {
+        display: none
+}
+    
+
+.nav-items.mobile {
+    display: flex;
+    font-size: small;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mid{
+    display:flex ;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+}
+
+.nav-items.mobile{
+    display: none;
+}
+
+/* 자기소개 */
+

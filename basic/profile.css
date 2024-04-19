@@ -5,6 +5,10 @@
 
 }
 
+.nav-items.mobile {
+    display: none;
+}
+
 .head{
     display: flex;
     justify-content: space-between;
@@ -34,7 +38,7 @@ header h1 span {
     display:inline-block;
 }
 
-.sns {
+.top-sns{
     display: flex;
     justify-content: center;
 
